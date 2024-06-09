@@ -17,7 +17,7 @@ const ReadingList = () => {
   const navigate = useNavigate();
 
   const [page, setPage] = useState(1);
-  const itemsPerPage = 12; // Number of items per page
+  const itemsPerPage = 8; // Number of items per page
 
   const handleViewClick = (title) => {
     navigate(`/book/${title}`);
