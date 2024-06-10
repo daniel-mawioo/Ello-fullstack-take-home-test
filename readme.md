@@ -99,7 +99,6 @@ _Below are some screenshots of screens from the running application:_
 
 To demonstrate the functionality of the application, the following example books have been added to the database:
 
-- **The Richest Man in Babylon** by Author3
 - **My Toddler's First Words** by Kimberly O Scanlom Ma
 - **The Heroes of Summer** by Norris McDonald
 - **Fun Bedtime Stories** by Penelope Arnoll Davis
@@ -107,6 +106,10 @@ To demonstrate the functionality of the application, the following example books
 - **Where the Wild Things Are** by Maurice Sendak
 - **Kindness is My Superpower** by Alicia Ortego
 - **Once Upon a Time** by Marthina Smith
+- ** Where The Wild Things are**
+- **Green Ttumb Poppy **
+- ** the Bad Guys**
+- ** The Circus Jelly**
 
 I added the data using postman on this endpoint
 ![Post Data](./screenshots/postman.png)
