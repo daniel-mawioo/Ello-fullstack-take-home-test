@@ -38,7 +38,7 @@ This project is a fullstack web application developed as part of the Ello Fullst
 _Below are some screenshots of screens from the running application:_
 | Cold temperatures below 20      |  Hot Weather above 20 | Mobile Screen Responsive| Error handling Screen |
 | ----------- | ----------- | ----------- | ----------- |
-| ![splash](./screenshots/one.png) | ![main](./screenshots/two.png)| ![main](./screenshots/three.png) | ![new](./screenshots/four.png) |
+| ![splash](/screenshots/one.png) | ![main](./screenshots/two.png)| ![main](./screenshots/three.png) | ![new](./screenshots/four.png) |
 
 
 
