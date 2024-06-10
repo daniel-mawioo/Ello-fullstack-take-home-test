@@ -109,7 +109,7 @@ To demonstrate the functionality of the application, the following example books
 - **Once Upon a Time** by Marthina Smith
 
 I added the data using postman on this endpoint
-[Post Data](./screenshots/postman.png)
+![Post Data](./screenshots/postman.png)
 
 These books can be used to test the demo of this app.
 
