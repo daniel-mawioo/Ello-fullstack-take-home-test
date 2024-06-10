@@ -1,4 +1,3 @@
-```markdown
 # Ello Fullstack Engineering Challenge
 
 ## Overview
@@ -22,6 +21,11 @@ This project is a fullstack web application developed as part of the Ello Fullst
    - Display book details including chapters.
    - Navigation buttons to move between chapters.
    - "Back to Home" button to return to the main page.
+
+## Hosting
+
+- **Frontend** is hosted [here](https://ello-fullstack-take-home-test.vercel.app/)
+- **Backend and PostgreSQL database** are hosted [here](https://ello-fullstack-take-home-test.onrender.com/)
 
 ## Navigating the App
 
@@ -91,6 +95,21 @@ _Below are some screenshots of screens from the running application:_
    npm start
    ```
 
+## Example Books
+
+To demonstrate the functionality of the application, the following example books have been added to the database:
+
+- **The Richest Man in Babylon** by Author3
+- **My Toddler's First Words** by Kimberly O Scanlom Ma
+- **The Heroes of Summer** by Norris McDonald
+- **Fun Bedtime Stories** by Penelope Arnoll Davis
+- **The Cat in the Hat** by Dr. Seuss
+- **Where the Wild Things Are** by Maurice Sendak
+- **Kindness is My Superpower** by Alicia Ortego
+- **Once Upon a Time** by Marthina Smith
+
+These books can be used to test the demo of this app.
+
 ## Best Practices
 
 1. **Code Quality:**
@@ -157,14 +176,10 @@ This project demonstrates the implementation of a fullstack web application with
 
    - The instructions for setting up both the backend and frontend are provided, including the necessary environment variables for the backend.
 
-2. **Testing**:
-
-   - Detailed instructions on how to run the tests and check the test coverage are provided.
-
-3. **Best Practices**:
+2. **Best Practices**:
 
    - Guidelines for maintaining code quality, handling errors, managing state, ensuring responsive design, and writing tests are included.
 
-4. **Folder Structure**:
+3. **Folder Structure**:
    - The folder structure for both the backend and frontend is outlined to help understand the project organization.
-```
+
