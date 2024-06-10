@@ -1,6 +1,4 @@
-Sure, here is the detailed README in Markdown format:
 
-**`README.md`**
 
 ````markdown
 # Ello Fullstack Engineering Challenge
@@ -15,6 +13,7 @@ This project is a fullstack web application developed as part of the Ello Fullst
 
    - Search for books by title.
    - Display search results with book title, author, and a button to add the book to the reading list.
+    ![new](./screenshots/onet.png) 
 
 2. **Reading List:**
 
@@ -50,7 +49,7 @@ This project is a fullstack web application developed as part of the Ello Fullst
    npm install
    ```
 
-3. Create a `.env` file with the following environment variables:
+3. Create a `.env` file with the following environment variables, check the provided env-example on my root backend dir:
 
    ```env
    DB_USER=<your-database-username>
@@ -86,25 +85,6 @@ This project is a fullstack web application developed as part of the Ello Fullst
    npm start
    ```
 
-## Testing
-
-This project uses Jest and React Testing Library for unit tests and coverage.
-
-### Running Tests
-
-To run the tests, use the following command:
-
-```sh
-npm test
-```
-
-### Running Coverage
-
-To run the tests with coverage, use the following command:
-
-```sh
-npm run test:coverage
-```
 
 ## Best Practices
 
@@ -125,10 +105,6 @@ npm run test:coverage
 4. **Responsive Design:**
 
    - Ensure the application is responsive and works well on different screen sizes.
-
-5. **Testing:**
-   - Write unit tests for components and utility functions.
-   - Aim for high test coverage to ensure reliability.
 
 ## Folder Structure
 
