@@ -1,6 +1,7 @@
 import React, { useContext, useState, useRef } from 'react';
-import { TextField, Box, CircularProgress, Grid, Card, CardMedia, CardContent, Typography, Button, Popper, Paper, ClickAwayListener, IconButton, Snackbar, Alert } from '@mui/material';
+import { TextField, Box, CircularProgress, Grid, Card, CardMedia, CardContent, Typography, Button, Popper, Paper, ClickAwayListener, IconButton, Snackbar, Alert, InputAdornment } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
+import SearchIcon from '@mui/icons-material/Search';
 import { useBooks } from '../hooks/useBooks';
 import { SearchContext } from '../context/SearchContext';
 import { ReadingListContext } from '../context/ReadingListContext';
@@ -64,6 +65,13 @@ const SearchBar = () => {
           variant="outlined"
           fullWidth
           onChange={handleSearch}
+          InputProps={{
+            endAdornment: (
+              <InputAdornment position="end">
+                <SearchIcon />
+              </InputAdornment>
+            ),
+          }}
         />
       </Box>
       <Popper open={open} anchorEl={anchorRef.current} placement="bottom-start" style={{ zIndex: 1300 }}>
