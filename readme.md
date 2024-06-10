@@ -27,9 +27,9 @@ This project is a fullstack web application developed as part of the Ello Fullst
 
 1. **Landing page**
 _Below are some screenshots of screens from the running application:_
-| Home | Hot Weather above 20 | Serach List view| Success Response | Error handling Screen |
+| Home View - Reading List | Search List view| Success Response | Error handling Screen |
 | ----------- | ----------- | ----------- | ----------- |
-| ![splash](./screenshots/two.png) | ![main](./screenshots/two.png)| ![main](./screenshots/three.png) | ![new](./screenshots/four.png) |
+| ![splash](./screenshots/two.png) | ![main](./screenshots/one.png)| ![main](./screenshots/three.png) | ![new](./screenshots/four.png) |
 
 ## Setup and Installation
 
@@ -167,7 +167,6 @@ This project demonstrates the implementation of a fullstack web application with
 4. **Folder Structure**:
    - The folder structure for both the backend and frontend is outlined to help understand the project organization.
 
-With this detailed README, anyone should be able to understand the project setup, functionality, and best practices followed.
 
 ```
 
