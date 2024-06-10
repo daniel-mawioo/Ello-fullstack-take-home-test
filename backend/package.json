@@ -9,10 +9,10 @@
   },
   "dependencies": {
     "@apollo/server": "^4.10.4",
+    "@apollo/usage-reporting-protobuf": "^4.1.1",
     "@apollo/utils.fetcher": "^1.0.0",
-    "@apollo/usage-reporting-protobuf": "^1.0.0",
-    "graphql": "^16.6.0",
     "dotenv": "^10.0.0",
+    "graphql": "^16.6.0",
     "pg": "^8.6.0",
     "sequelize": "^6.6.5"
   },
