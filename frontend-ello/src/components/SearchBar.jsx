@@ -45,6 +45,7 @@ const SearchBar = () => {
       setSnackbarOpen(true);
     } else {
       addBook(book);
+      setFilteredBooks(filteredBooks.filter(item => item.title !== book.title)); // Remove added book from search results
       setSnackbarMessage('Book added to the reading list');
       setSnackbarSeverity('success');
       setSnackbarOpen(true);
@@ -94,7 +95,7 @@ const SearchBar = () => {
                       <Box sx={{ flexShrink: 0, width: 100, height: 140, overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center', p: 1 }}>
                         <CardMedia
                           component="img"
-                          sx={{ maxHeight: '100%', maxWidth: '100%' }}
+                          sx={{ maxHeight: '100%', maxWidth: '70%' }}
                           image={book.coverPhotoURL}
                           alt={book.title}
                         />
