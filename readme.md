@@ -1,6 +1,6 @@
+To add the screenshots to your README file, you need to ensure that the paths to the images are correctly referenced. Since you mentioned that the screenshots are in the `screenshots` directory at the same level as your README file, you can directly use relative paths to reference these images. Below is your updated README file with the screenshot links added correctly.
 
-
-````markdown
+```markdown
 # Ello Fullstack Engineering Challenge
 
 ## Overview
@@ -13,7 +13,6 @@ This project is a fullstack web application developed as part of the Ello Fullst
 
    - Search for books by title.
    - Display search results with book title, author, and a button to add the book to the reading list.
-    ![new](./screenshots/onet.png) 
 
 2. **Reading List:**
 
@@ -26,8 +25,9 @@ This project is a fullstack web application developed as part of the Ello Fullst
    - Navigation buttons to move between chapters.
    - "Back to Home" button to return to the main page.
 
-   # Navigating the App.
-1.Landing page
+## Navigating the App
+
+1. **Landing page**
 
 ## Home
 ![Dashboard Preview](./screenshots/main.png)
@@ -38,9 +38,7 @@ This project is a fullstack web application developed as part of the Ello Fullst
 _Below are some screenshots of screens from the running application:_
 | Cold temperatures below 20      |  Hot Weather above 20 | Mobile Screen Responsive| Error handling Screen |
 | ----------- | ----------- | ----------- | ----------- |
-| ![splash](./screenshots/one.png) | ![main](./screenshots/two.png)| ![main](./screenshots/three.png) | ![new](./screenshots/four.png) |
-
-
+| ![Home Page](./screenshots/two.png) | ![search List View](./screenshots/three.png) | ![success Response](./screenshots/one.png) | ![Error Handling](./screenshots/four.png) |
 
 ## Setup and Installation
 
@@ -57,7 +55,6 @@ _Below are some screenshots of screens from the running application:_
    git clone <repository-url>
    cd backend
    ```
-````
 
 2. Install dependencies.
 
@@ -100,7 +97,6 @@ _Below are some screenshots of screens from the running application:_
    ```sh
    npm start
    ```
-
 
 ## Best Practices
 
@@ -162,15 +158,10 @@ frontend/
 
 This project demonstrates the implementation of a fullstack web application with React and Node.js. It covers essential features like searching, managing a reading list, and viewing book details. The setup includes best practices for code quality, error handling, state management, and testing.
 
-```
-
 ### Notes
 
 1. **Setup and Installation**:
    - The instructions for setting up both the backend and frontend are provided, including the necessary environment variables for the backend.
-
-2. **Testing**:
-   - Detailed instructions on how to run the tests and check the test coverage are provided.
 
 3. **Best Practices**:
    - Guidelines for maintaining code quality, handling errors, managing state, ensuring responsive design, and writing tests are included.
