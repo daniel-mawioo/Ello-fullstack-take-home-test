@@ -1,4 +1,4 @@
-````markdown
+```markdown
 # Ello Fullstack Engineering Challenge
 
 ## Overview
@@ -26,10 +26,12 @@ This project is a fullstack web application developed as part of the Ello Fullst
 ## Navigating the App
 
 1. **Landing page**
+
 _Below are some screenshots of screens from the running application:_
-| Home View - Reading List | Search List view| Success Response | Error handling Screen |
+
+| Home View - Reading List | Search List view | Success Response | Error handling Screen |
 | ----------- | ----------- | ----------- | ----------- |
-| ![splash](./screenshots/two.png) | ![main](./screenshots/one.png)| ![main](./screenshots/three.png) | ![new](./screenshots/four.png) |
+| ![Home View](./screenshots/two.png) | ![Search List](./screenshots/one.png) | ![Success Response](./screenshots/three.png) | ![Error Handling](./screenshots/four.png) |
 
 ## Setup and Installation
 
@@ -46,7 +48,6 @@ _Below are some screenshots of screens from the running application:_
    git clone <repository-url>
    cd backend
    ```
-````
 
 2. Install dependencies.
 
@@ -54,7 +55,7 @@ _Below are some screenshots of screens from the running application:_
    npm install
    ```
 
-3. Create a `.env` file with the following environment variables, check the provided env-example on my root backend dir:
+3. Create a `.env` file with the following environment variables, check the provided env-example in the root backend directory:
 
    ```env
    DB_USER=<your-database-username>
@@ -166,12 +167,4 @@ This project demonstrates the implementation of a fullstack web application with
 
 4. **Folder Structure**:
    - The folder structure for both the backend and frontend is outlined to help understand the project organization.
-
-
-```
-
-```
-
-```
-
 ```
